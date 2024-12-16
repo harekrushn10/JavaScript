@@ -67,3 +67,42 @@ let stringNumber = String(someNumber) //convert values in string datatype
 console.log(typeof stringNumber); //string
 console.log(someNumber); //21
 
+// **************************************** Operations ********************************************************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log(2+2); //sum
+console.log(2-2); //substract
+console.log(2*2); //multiplt
+console.log(2**3); //** => gives power of
+console.log(2/3); //divide
+console.log(2%3); //modulo => gives reminder
+
+let str1 = "hello"
+let str2 = " hari"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); //32
+
+console.log((3 + 4) * 5 % 3); // 2
+
+console.log(true); //true
+console.log(+true); //1
+console.log(+""); //0
+
+let num1 , num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++; // 100+1
+console.log(gameCounter); // 101
+
+
+
