@@ -1,8 +1,8 @@
-// console.log(2 > 1);  // -->greater than
-// console.log(2 >= 1); // -->greater than equal to
-// console.log(2 <= 1); // -->less than equal to 
-// console.log(2 == 1); // -->equal to
-// console.log(2 != 1); // -->not equal
+// console.log(2 > 1);  // true -->greater than 
+// console.log(2 >= 1); // true -->greater than equal to
+// console.log(2 <= 1); // false -->less than equal to 
+// console.log(2 == 1); // false -->equal to
+// console.log(2 != 1); // true -->not equal
 
 console.log("2" > 1); // true  --> by default it converts str into number datatype
 console.log("02" > 1); // true
